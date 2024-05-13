@@ -1,0 +1,24 @@
+
+.yu{
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-stretch: condensed;
+  color: black;
+}
+p{
+  padding: 10px;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-stretch: condensed;
+  color: rgb(89, 92, 94);
+}
+.aaa{height: 10vh; width: 100%;}
+
+ @media  only screen and (max-width: 500px){
+  .con-card{
+    display: block;
+    width: 80%; 
+  }   
+ }
+  
+  

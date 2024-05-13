@@ -1,0 +1,230 @@
+.patterns-heading {
+  margin: 30px auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+}
+.patterns-heading h1 {
+  margin: 30px 0 0 0;
+}
+.patterns-heading p {
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+.patterns-container {
+  width: 100%;
+}
+.patterns-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 100%;
+}
+.patterns-card-one,
+.patterns-card-two,
+.patterns-card-three,
+.patterns-card-four,
+.patterns-card-five,
+.patterns-card-six {
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+}
+.patterns-card-one-img,
+.patterns-card-two-img,
+.patterns-card-three-img,
+.patterns-card-four-img,
+.patterns-card-five-img,
+.patterns-card-six-img {
+  width: 50%;
+}
+.patterns-card-one-img img,
+.patterns-card-two-img img,
+.patterns-card-three-img img,
+.patterns-card-four-img img,
+.patterns-card-five-img img,
+.patterns-card-six-img img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.patterns-card-one-des,
+.patterns-card-two-des,
+.patterns-card-three-des,
+.patterns-card-four-des,
+.patterns-card-five-des,
+.patterns-card-six-des {
+  width: 50%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.patterns-card-one-des h2,
+p,
+.patterns-card-two-des h2,
+p,
+.patterns-card-three-des h2,
+p,
+.patterns-card-four-des h2,
+p,
+.patterns-card-five-des h2,
+p,
+.patterns-card-six-des h2,
+p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 0 20px 0;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .patterns-card-one,
+  .patterns-card-two,
+  .patterns-card-three,
+  .patterns-card-four,
+  .patterns-card-five,
+  .patterns-card-six {
+    height: 40vh;
+  }
+  .patterns-card-one-des h2,
+  p,
+  .patterns-card-two-des h2,
+  p,
+  .patterns-card-three-des h2,
+  p,
+  .patterns-card-four-des h2,
+  p,
+  .patterns-card-five-des h2,
+  p,
+  .patterns-card-six-des h2,
+  p {
+    width: 75%;
+    margin: 0 auto;
+    padding: 55px 0 16px 0;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .patterns-card-one,
+  .patterns-card-two,
+  .patterns-card-three,
+  .patterns-card-four,
+  .patterns-card-five,
+  .patterns-card-six {
+    height: 33vh;
+  }
+  .patterns-card-one-des h2,
+  p,
+  .patterns-card-two-des h2,
+  p,
+  .patterns-card-three-des h2,
+  p,
+  .patterns-card-four-des h2,
+  p,
+  .patterns-card-five-des h2,
+  p,
+  .patterns-card-six-des h2,
+  p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .patterns-card-one,
+  .patterns-card-two,
+  .patterns-card-three,
+  .patterns-card-four,
+  .patterns-card-five,
+  .patterns-card-six {
+    height: 30vh;
+  }
+  .patterns-card-one-des h2,
+  p,
+  .patterns-card-two-des h2,
+  p,
+  .patterns-card-three-des h2,
+  p,
+  .patterns-card-four-des h2,
+  p,
+  .patterns-card-five-des h2,
+  p,
+  .patterns-card-six-des h2,
+  p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 5px 0;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .patterns-card-one,
+  .patterns-card-two,
+  .patterns-card-three,
+  .patterns-card-four,
+  .patterns-card-five,
+  .patterns-card-six {
+    height: 50vh;
+    display: block; 
+    display: flex;
+    flex-direction: column; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 10px 0;
+  }
+  .patterns-card-one-img,
+.patterns-card-two-img,
+.patterns-card-three-img,
+.patterns-card-four-img,
+.patterns-card-five-img,
+.patterns-card-six-img {
+  width: 100%;
+  height: 55%;
+}
+.patterns-card-one-des,
+.patterns-card-two-des,
+.patterns-card-three-des,
+.patterns-card-four-des,
+.patterns-card-five-des,
+.patterns-card-six-des {
+  width: 100%;
+  height: 45%; 
+}
+.patterns-card-two-img ,.patterns-card-four-img, .patterns-card-six-des{
+    order: 1;
+}
+.patterns-card-two-des, .patterns-card-four-des, .patterns-card-six-des{
+    order: 2;
+}
+} 
+@media only   screen and (max-width:450px){
+    .patterns-card-one-des,
+    .patterns-card-two-des,
+    .patterns-card-three-des,
+    .patterns-card-four-des,
+    .patterns-card-five-des,
+    .patterns-card-six-des {
+      width: 100%;
+      height: 55%; 
+    }     
+    .patterns-card-one-img,
+    .patterns-card-two-img,
+    .patterns-card-three-img,
+    .patterns-card-four-img,
+    .patterns-card-five-img,
+    .patterns-card-six-img {
+      width: 100%;
+      height: 45%;
+    }
+}

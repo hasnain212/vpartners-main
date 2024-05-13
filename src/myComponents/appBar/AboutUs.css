@@ -1,0 +1,226 @@
+.about-sec { 
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+}
+.about { 
+  text-align: center;
+}
+.about p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+  width: 60%;
+  margin: 0 auto;
+  color: rgb(70, 62, 62);
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+.about h1 {
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+  color: rgb(0, 0, 0);
+}
+.our-values h1 {
+  font-size: 35px;
+  color: black;
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+}
+.Integrity,
+.Quality,
+.Customer-Focus,
+.Innovation {
+  display: flex;
+  width: 100%;
+  height: 50vh;  
+}
+.Integrity h1,
+.Quality h1,
+.Customer-Focus h1,
+.Innovation h1 {
+  width: 60%;
+  margin: 50px auto 10px auto;
+  font-family: sans-serif;
+  font-stretch: condensed;
+}
+.Integrity-img {
+  width: 50%;
+}
+.Integrity-des { 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 50%;
+}
+.Integrity-img img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 100%;
+}
+
+.Quality-img {
+  width: 50%;
+}
+.Quality-des {
+  width: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
+}
+.Quality-des p,
+.Customer-Focus-des p,
+.Innovation-des p,
+.Integrity-des p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: large;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: rgba(71, 76, 83, 0.685);
+}
+.Quality-img img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 100%;
+}
+
+.Customer-Focus-img {
+  width: 50%;
+}
+.Customer-Focus-des { 
+  width: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.Customer-Focus-img img {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Innovation-img {
+  width: 50%;
+}
+.Innovation-des { 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 50%;
+}
+.Innovation-img img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.our-values {
+  width: 100%;
+  height: auto; 
+  margin-top: 80px;
+}
+.our-value-heading {
+  text-align: center;
+  width: 100%;
+  font-size: larger;
+  height: 10vh; 
+}
+.eee {
+  width: 100%;
+  height: 20vh;
+} 
+
+@media only screen and (max-width: 950px) { 
+}
+@media only screen and (max-width: 750px) {
+  
+  .Integrity,
+  .Quality,
+  .Customer-Focus,
+  .Innovation {
+    height: 45vh;
+  }
+  .Integrity h1,
+  .Quality h1,
+  .Customer-Focus h1,
+  .Innovation h1 {
+    width: 80%;
+    margin: 20px auto 5px auto;
+    font-size: 25px;
+  }
+  .Quality-des p,
+  .Customer-Focus-des p,
+  .Innovation-des p,
+  .Integrity-des p {
+    width: 80%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    line-height: 27px;
+  }
+}
+@media only screen and (max-width: 670px) {
+   
+  .Integrity,
+  .Quality,
+  .Customer-Focus,
+  .Innovation {
+    flex-direction: column; 
+    height: 60vh; 
+  }
+  .Quality-img, .Innovation-img {
+    order: 1;
+    width: 100%;
+    height: 60%;
+  }
+  .Quality-des, .Innovation-des {
+    order: 2;
+    width: 100%;
+    height: 50%;
+  }
+  .Integrity-img, .Customer-Focus-img{
+    width: 100%;
+    height: 60%;
+  }
+  .Integrity-des, .Customer-Focus-des{
+    width: 100%;
+    height: 50%;
+  }
+  .our-values{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+  .about p {
+    width: 100%;
+    font-size: small;
+  }
+  .about h1 {
+    font-size: 25px;
+  }
+  .our-value-heading h1 {
+    font-size: 25px;
+  }
+  .Integrity h1,
+  .Quality h1,
+  .Customer-Focus h1,
+  .Innovation h1 {
+    font-size: 20px;
+  }
+  .Integrity p,
+  .Quality p,
+  .Customer-Focus p,
+  .Innovation p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+}

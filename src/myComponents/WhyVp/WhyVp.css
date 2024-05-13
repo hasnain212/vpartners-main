@@ -1,0 +1,162 @@
+.why-vp {
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 12px 14px 0px inset;
+  margin-top: 80px;
+}
+.why-vp-icons {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: lighter;
+}
+.why-vp-heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: rgb(40, 39, 39);
+  margin: 20px 0px 60px 0px;
+}
+
+.why-vp-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+.why-vp-heading h1{
+  font-family: sans-serif;
+  font-stretch: ultra-condensed;
+}
+.durable,
+.circular,
+.natural-heating,
+.health {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  width: 24%;
+  text-align: center;
+  height: 60vh;
+  font-size: 70px;
+}
+.health h6,
+.circular h6,
+.durable h6,
+.natural-heating h6 {
+  margin: 25px 0 0 0;
+  font-size: 25px;
+  color: black;
+  font-family:   sans-serif;
+  font-stretch:condensed; 
+  font-weight: 100;
+}
+.health p,
+.circular p,
+.durable p,
+.natural-heating p {
+  font-size: 19px;
+  font-family: sans-serif;
+  font-stretch: condensed;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: rgb(130, 126, 126);
+  margin: 10px auto;
+  width: 90%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1350px) {
+  .durable,
+  .circular,
+  .natural-heating,
+  .health {
+    height: 75vh;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .why-vp-icons {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 50px;
+  }
+  .durable,
+  .circular,
+  .natural-heating,
+  .health {
+    width: 95%;
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 855px) {
+  /* .why-vp-icons {
+      flex-wrap: wrap;
+    } */
+
+  .durable,
+  .circular,
+  .natural-heating,
+  .health {
+    height: 65vh;
+    font-size: 35px;
+    width: 100%;
+  }
+  .health h6,
+  .circular h6,
+  .durable h6,
+  .natural-heating h6 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .why-vp-icons {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 15px;
+  }
+  .durable,
+  .circular,
+  .natural-heating,
+  .health {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .health p,
+  .circular p,
+  .durable p,
+  .natural-heating p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 27px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .why-vp-icons {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+  .health,
+  .circular,
+  .durable,
+  .natural-heating {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .health,
+  .circular,
+  .durable,
+  .natural-heating {
+    height: 60vh;
+  }
+}

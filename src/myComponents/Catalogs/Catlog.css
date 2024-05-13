@@ -1,0 +1,167 @@
+.catlog-heading  {
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ 
+}
+.catlog-heading h1{
+  font-family: sans-serif;
+  font-stretch: ultra-condensed	;
+  font-weight: lighter;
+  font-size: 30px; 
+  color: rgb(45, 44, 44);
+}
+.cards-box {  
+  display: flex;
+  width: 100%; 
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.first-card { 
+  height: 100vh;
+  width: 63%;
+  overflow: hidden;
+  border-radius: 5px;
+ 
+}
+.first-card img {
+  height: 92%;
+  width: 100%; 
+  transition: transform 0.3s ease;
+  border-radius: 5px 5px 0 0;
+}
+.first-card img:hover { 
+  transform: scale(1.02);
+  border-radius: 5px 5px 0 0;
+}
+.first-card p {
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid rgb(206, 202, 202);
+  border-right: 1px solid rgb(206, 202, 202);
+  border-bottom: 1px solid rgb(206, 202, 202);
+  margin: 0;
+  border-radius: 0 0 5px 5px;
+  padding: 0;
+  font-family: Courier New, monospace;
+}
+.cards-right { 
+  width: 35%; 
+  height: auto;
+}
+.card-two,
+.card-three {
+  height: 48%;
+  margin: 0 0 24px 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.card-two img,
+.card-three img {
+  height: 85%;
+  width: 100%;
+  transition: transform 0.3s ease; 
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+.card-two img:hover {
+  transform: scale(1.04);
+}
+.card-three img:hover {
+  transform: scale(1.04);
+}
+.card-two p,
+.card-three p {
+  font-family: Courier New, monospace;
+  font-stretch: extra-expanded;
+  height: 12%; 
+  /* height: auto; */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-left: 1px solid rgb(206, 202, 202);
+  border-right: 1px solid rgb(206, 202, 202);
+  border-bottom: 1px solid rgb(206, 202, 202);
+  margin: 0 ;
+  padding: 0;
+  border-radius: 0 0 5px 5px;
+}
+.first-card p, .card-three p , .card-two p{
+  text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .catlog-heading h1{
+    font-size: 24px;
+  }
+  .first-card {
+    width: 100%;  
+    height: auto;
+  } 
+  .cards-box {
+    display: block;
+    height: auto;
+  }
+  .cards-right {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .card-two,
+  .card-three {
+    width: 49%; 
+  }
+  .first-card p, .card-three p , .card-two p{
+    text-align: center; 
+    font-size: 17px;
+  } 
+}
+ 
+
+@media only screen and (max-width: 625px) {
+  .catlog-heading h1{
+    font-size: 19px;
+    
+  } 
+  .catlog-heading{
+    height: 10vh;
+  }
+  .first-card p, .card-three p , .card-two p{
+    text-align: center; 
+    height: auto; 
+    font-size: 15px;
+  }
+  
+}
+ 
+
+@media only screen and (max-width: 500px) {
+  .cards-right {
+    display: block;
+  }
+  .card-two,
+  .card-three{
+    width: 100%;  
+  } 
+  .catlog-heading h1 { 
+    font-size: large;
+    text-align: center;
+  }  
+  .first-card p, .card-three p , .card-two p{
+    text-align: center;
+    height: auto;
+    font-size: 12px;
+  }
+  .catlog-heading {
+    height: 9vh;
+  }
+}
